@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CBE4DE;
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #2C3333;
+    color: white;
+}
+
+.header h1 {
+    text-align: center;
+    color: #3ac2da;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #2E4F4F;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.pedal {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trail-pedal {
+    display: flex;
+    align-items: center;
+}
+
+.trail-pedal-text {
+    flex: 1;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.trail-pedal-img {
+    margin: 20px;
+    height: 400px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.enduro-pedal {
+    display: flex;
+    align-items: center;
+}
+
+.enduro-pedal-img {
+    margin: 20px;
+    height: 400px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.enduro-pedal-text {
+    flex: 1;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
