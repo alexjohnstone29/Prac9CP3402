@@ -1,0 +1,38 @@
+$font-stack: Helvetica, sans-serif;
+$primary-colour: #333;
+
+@use 'navbar';
+
+@mixin theme($theme: header_style) {
+  color: #7d34c2;
+}
+
+h1 {
+  @include theme;
+}
+
+h2 {
+  @include theme;
+}
+
+body {
+  font: 100%, $font-stack;
+  color: $primary-colour;
+  background-color: #CBE4DE;
+}
+
+%pedal_text {
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px;
+}
+
+#trail-blurb {
+  @extend %pedal_text;
+  border-color: green;
+}
+
+#enduro-blurb {
+  @extend %pedal_text;
+  border-color: yellowgreen;
+}

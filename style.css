@@ -1,84 +1,46 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #CBE4DE;
+.navbar ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  background-color: aqua;
 }
-
-.header {
-    padding: 40px;
-    text-align: center;
-    background: #2C3333;
-    color: white;
+.navbar li {
+  display: inline-block;
 }
-
-.header h1 {
-    text-align: center;
-    color: #3ac2da;
-}
-
-.navbar {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #2E4F4F;
-}
-
 .navbar a {
-    color: white;
-    text-decoration: none;
-    float: left;
-    padding: 10px 10px;
-    text-align: center;
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-.navbar a.right {
-    float: right;
+h1 {
+  color: #7d34c2;
 }
 
-.pedal {
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
+h2 {
+  color: #7d34c2;
 }
 
-.trail-pedal {
-    display: flex;
-    align-items: center;
+body {
+  font: 100%, Helvetica, sans-serif;
+  color: #333;
+  background-color: #CBE4DE;
 }
 
-.trail-pedal-text {
-    flex: 1;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+#enduro-blurb, #trail-blurb {
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px;
 }
 
-.trail-pedal-img {
-    margin: 20px;
-    height: 400px;
-    width: 500px;
-    background-color: grey;
-    color: white;
-    text-align: center;
+#trail-blurb {
+  border-color: green;
 }
 
-.enduro-pedal {
-    display: flex;
-    align-items: center;
+#enduro-blurb {
+  border-color: yellowgreen;
 }
 
-.enduro-pedal-img {
-    margin: 20px;
-    height: 400px;
-    width: 500px;
-    background-color: grey;
-    color: white;
-    text-align: center;
-}
-
-.enduro-pedal-text {
-    flex: 1;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+$padding: 10px;
+
+.navbar {
+    ul {
+      margin: 0;
+      padding: $padding;
+      list-style: none;
+      background-color: aqua;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: $padding 12px;
+      text-decoration: none;
+      color: white;
+      text-decoration: none;
+    }
+  }
